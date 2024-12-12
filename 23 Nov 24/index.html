@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- post is save way for send data -->
+    <form action="demo.js" method="post">   
+        <div>
+            <label for="msg">Message</label><br>
+            <textarea  id="msg" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <br>
+            <label for="vechicle">Select Car</label>
+            <input type="text" id="vechicle" list="cars">
+            <datalist id="cars">
+                <option value="Bmw"></option>
+                <option value="mercedes"></option>
+                <option value="Audi"></option>
+                <option value="tata"></option>
+                <option value="Jaguar"></option>
+                <option value="tesla"></option>
+            </datalist>
+        </div>
+<!-- buttion types="sumit>send</button" -->
+ <input type="submit " value="send data">
+ <input type="reset" value="reset data">
+ <br>
+ 
+    </form>
+</body>
+</html>

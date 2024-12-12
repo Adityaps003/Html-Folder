@@ -1,0 +1,31 @@
+body {
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container img {
+    width: 300px;
+}
+/* Media querry */
+/* tablet view */
+@media screen and (max-width:768) {
+    body {
+        background-color: blue;
+    }
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mobile View */
+
+@media screen and (max-width:425px) {
+    body {
+        background-color: greenyellow;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+    
+}

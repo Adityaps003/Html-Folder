@@ -1,0 +1,79 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 200px;
+    /* transition-property: all; */
+    /* text-decoration: 2s; *
+    /* linear ease ease-in ease-out ease-in-out */
+    /* transition-timing-function: ease-in-out;; */
+    /* transition: -delay: 2s; */
+    
+    /* shorthand */
+   transition: all 2s ease;
+}
+.box:hover {
+    /* transdorm: translateX(100px); */
+    /* transform: translate(100px); */
+    /* transform: translate(100px,100px); */
+    /* transform: scaleX(3); */
+    /* transform: scaley(3); */
+    /* transform: scale(3,3); */
+    /* transform: rotate(-360deg); */
+    /* transform: skewX(-60deg); */
+    /* transform: skewy(-60deg); */
+    transform: skew(60deg,60deg);
+
+    background-color: yellow;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    animation-name: harrypotter;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    position: relative;
+    border-radius: 50%;
+    /* shorthand */
+    animation: harrypotter 3s ease 3 ;
+}
+/* 
+@keyframes harrypotter {
+0%{
+    background-color:red;
+     width:100px;   
+}
+100%{
+    background-color:green;
+    width: 700px;
+}
+} */
+
+@keyframes harrypotter{
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+
+    }
+    25%{
+        background-color: yellow;
+        top: 0px;
+        left: 100px;
+
+    }
+    50% {
+        background-color: blue;
+        top: 100px;
+        left: 100px;
+    }
+
+    75% {
+        background-color: green;
+        top: 100px;
+    }
+}

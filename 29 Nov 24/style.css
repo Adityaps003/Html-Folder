@@ -1,0 +1,45 @@
+body{
+    /* background-color: rgb(184, 139, 41); */
+    /* alph 0- 1 */
+    /* background-color: rgb(39, 0, 1); */
+
+    /* background-color: #d35525; */
+}
+.mypera {
+    background-color: yellow;
+    color: blue;
+    font-size: 34px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 800;
+    /* upp and lower case */
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    /* border */
+    border-width: 60px;
+    /* solid,dotted , desh */
+    border-style: dotted;
+    border-color: green ;
+
+    /* shorthand */
+    border: 12px solid black;
+
+}
+
+.new {
+    border-top: 10px solid red;
+    border-right: 10px dashed black;
+    border-bottom: 10px dotted blue;
+    border-left: 10px solid orange;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:60px ;
+    border-bottom-right-radius:70px ;
+}
+
+#coler{
+
+}

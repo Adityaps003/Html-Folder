@@ -1,0 +1,37 @@
+/* multiple selator*/
+/* h1
+p,
+. container{
+ background - color: yellow;
+}*/
+
+
+/* Nested selector*/
+
+.container h1 {
+    background-color: yellow;
+    width: 50%;
+height: 300px;
+
+}
+
+p {
+    font-size: 40px;
+    color: red;
+    font-weight: 900;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-decoration: underline ;
+    /* lowercase , uppercase , capitalize */
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 10px;
+
+    background-color: aqua;
+    height: 250px;
+/*border - width: 10px;
+border- style: solid color;
+border - color: :read ;
+/* shortthand proparty */
+border: 19px dashed read
+ 
+}

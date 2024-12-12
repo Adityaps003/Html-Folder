@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+nav ul li a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+#click{
+    display: none;
+}
+
+label{
+    font-size: 30px;
+    font-weight: 900;
+    display: none;
+}
+
+/* tablet view */
+@media screen and (max-width:768px){
+  label{
+    display: block;
+  }
+   nav ul {
+     flex-direction: column;
+     position: absolute;
+     top: 75px;
+     left: 0;
+     background-color: lightblue;
+     width: 100%;
+     text-align: center;
+     display: none;
+   }
+   #click:checked  ~ nav ul{
+    display: block;
+   }
+  
+}

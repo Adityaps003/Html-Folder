@@ -1,0 +1,27 @@
+h1 {
+  background-color: rgb(244, 222, 83);
+}
+span {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  background-color: aqua;
+  color: blueviolet;
+  width: 600px;
+  height: 300px;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  border-width: 10px;
+  border-style: dotted;
+  /* Shorthand */
+  border: 5px solid green;
+  /* border radius its used to round the squra */
+  border-radius: 20px;
+}

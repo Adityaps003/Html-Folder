@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.con{
+    height: 100vh;
+    /* for image in backgrond */
+    background-image: url(/pexels-apasaric-325185.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+ 
+     /* Short Hand Image repeat postion size */
+    background: url(/img\ 2.jpg) no-repeat center center/cover; 
+
+
+}
+.box{
+    border: 10px solid red;
+    /* all sides */
+    margin: 10px;
+    /* top/bottom left/right */
+    margin: 20px 40px;
+    /* top right bottom left */
+    margin: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-right:20px ;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    /*  all sides  */
+    padding: 10px 20px 30px 40px;
+    padding-top: ;
+    padding-left: ;
+
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.navbar{
+    background-color: antiquewhite;
+    height: 2%;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    
+    
+}
+
+.contenernew{
+       display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -150;
+    display: flex;
+}
+

@@ -1,0 +1,60 @@
+*{
+    margin: ;
+}
+
+
+
+
+
+
+
+.hero{
+    height: 100vh;
+    background-image: url('/usgs-nF1FvXdJL7o-unsplash.jpg');
+    text-align: center;
+
+    background-repeat: center center;
+    background-size: cover;
+
+    /* short hand  */
+    background: url() no-repeat;
+    
+}
+
+/* nested selater , multiple */
+.hero h1,
+.hero p {
+    color: black;
+}
+
+.hero h1{
+    font-size: 60px;
+}
+.hero p {
+    font-size: 40px;
+}
+
+.btn{
+
+    font-size: 25px;
+    color: black;
+    background-color: aqua;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px;
+    border: 2px solid wheat;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    /* top/bottom - 20px left-right - 40px */
+    padding: 20px 40px;
+
+
+    margin: 20px 40px;
+    margin: 20px;
+}

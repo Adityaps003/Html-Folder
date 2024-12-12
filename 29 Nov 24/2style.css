@@ -1,0 +1,13 @@
+.mypage{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-width: 20px;
+}

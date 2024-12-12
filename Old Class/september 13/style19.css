@@ -1,0 +1,22 @@
+.box1{
+    height: 100vh;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    background-image:url("/43a217e0-9443-428c-a602-6f58ccedb2421604953392241-1.webp") ;
+    background-repeat:no-repeat;
+   
+
+}
+.box{
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.box2{
+    background-color: blueviolet;
+    border: 10px solid burlywood;
+    width: 250px;
+    border-radius: 50%;
+}

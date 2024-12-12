@@ -1,0 +1,45 @@
+/* Universal seclector */
+* {
+  background-color: rgb(154, 120, 150);
+}
+
+body {
+  background-color: red;
+}
+/* element selator */
+h1 {
+  background-color: yellow;
+  color: blue;
+}
+
+#heading {
+  background-color: blueviolet;
+  color: azure;
+}
+/* class selactor */
+.common {
+  background-color: blue;
+  color: yellow;
+}
+
+/* id selotor */
+#heading {
+  background-color: brown;
+  color: yellow;
+}
+.common {
+  background-color: red;
+  color: orange;
+}
+
+.cp {
+  background-color: aqua;
+  color: bisque;
+}
+#mypara {
+  background-color: blanchedalmond;
+  color: blueviolet;
+}
+h3 {
+  font-size: xx-large;
+}

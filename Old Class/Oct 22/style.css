@@ -1,0 +1,34 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  color: red;
+  background-color: yellow;
+  letter-spacing: 20px;
+  font-size: 60px;
+}
+h1:hover {
+  background-color: red;
+  color: yellow;
+}
+
+p {
+  color: blue;
+  background-color: pink;
+  letter-spacing: 30px;
+  font-size: 35px;
+}
+p:hover {
+  background-color: blue;
+  color: pink;
+}
+
+body {
+  background-color: rgb(123, 127, 220);
+  color: rgb(214, 163, 163);
+}
+
+header {
+  @in;
+}/*# sourceMappingURL=style.css.map */

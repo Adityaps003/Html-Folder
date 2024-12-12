@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  height: 70px;
+  font-size: 70px;
+  margin-top: 1%;
+  }
+  
+  .logo {
+    color: white;
+  }
+
+  .hero {
+  /* width: 200vh; */
+  height: 200vh;
+  background-image: url(/antonika-chanel-9vGALFF1WmM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Optional: Ensures the image covers the area */
+  background-position: center; /* Optional: Centers the image */
+}
+
+
+

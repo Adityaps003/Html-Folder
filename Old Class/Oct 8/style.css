@@ -1,0 +1,42 @@
+.container {
+    height: 500px;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+    /* flex-start flex-end space-BT space-around space-evenly */
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.cad{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 400px;
+} 

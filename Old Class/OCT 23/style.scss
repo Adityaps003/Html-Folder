@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixin";
+
+// Nesting
+body {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+}
+
+header {
+  @include flexproperty(column);
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  h1 {
+    @include commoncode(red, yellow, 20px, 60px);
+    &:hover {
+      background-color: red;
+      color: yellow;
+    }
+  }
+  p {
+    @include commoncode(pink, blue, 30px, 40px);
+    &:hover {
+      background-color: blue;
+      color: pink;
+    }
+  }
+}
+
+.container {
+  @include flexproperty(row);
+  gap: 20px;
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+}

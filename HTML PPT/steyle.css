@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: box;
+}
+body {
+  background-color: white;
+}
+.hero {
+  background-image: url(/Back\ grond\ image.jpg);
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.about {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.navbar nav {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -150px;
+  color: white;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar nav ul {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+  gap: 150px;
+  text-decoration: none;
+  margin-left: 100px;
+  text-align: center;
+}
+.hero h2 {
+  align-items: center;
+  text-align: center;
+  color: white;
+  justify-content: space-evenly;
+  font-size: 60px;
+  margin-top: 10px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+.hero h3 {
+  align-items: center;
+  text-align: center;
+  color: white;
+  justify-content: space-evenly;
+  font-size: 60px;
+  margin-top: 120px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+.properties {
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+}
+
+.properties .img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 50px 50px;
+  place-items: center;
+}
+.properties .img div {
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.properties h2 {
+  font-size: 50px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.properties div img {
+  width: 250px;
+}
+
+/* .img div:hover { */
+/* transform: translateY(-8px); */
+/* } */
+
+.properties h3 {
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.properties div span {
+  background-color: lightgreen;
+}
+
+.properties p {
+  padding: 8px;
+}
+.properties a {
+  text-decoration: none;
+  color: black;
+}
+.custmer {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  gap: 40px;
+}
+.custmer div img {
+  width: 200px;
+}
+.headingforc {
+  text-align: center;
+  font-size: 15px;
+}
+.footer {
+  background-color: rgb(138, 123, 6);
+  padding: 50px;
+}
+.footercon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+}
+.footercon ul {
+  list-style: none;
+  padding: 40px;
+}
+.footer .footercon ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+.footer .footercon ul li h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footercon ul li {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.footer .footercon ul .icon {
+  display: flex;
+  font-size: 35px;
+}
+.footer .footercon ul .icon li i {
+  font-size: 33px;
+  color: green;
+  margin-right: 13px;
+}
+.copyright {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(163, 142, 5);
+  background-color: rgb(249, 246, 246);
+  padding: 50px;
+}
+.fimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -5px;
+}
+.fimg a img {
+  width: 253px;
+}
+
+@media (max-width: 768px) {
+  .properties .img {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footercon ul {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  .properties .img {
+    grid-template-columns: 1fr;
+  }
+  .custmer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footercon {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}

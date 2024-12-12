@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("/Back\ grond\ image.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  
+
+
+
+  /* Shorthand */
+  background: url("/Back\ grond\ image.jpg") no-repeat center center/cover;
+  text-align: center;
+  
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+    
+}
+
+nav.logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    float: right;
+
+}
+navli{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+}
+.properties .class .navigation ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 500px;
+  list-style: none;
+  font-size: 25px;
+}
+
+
+.class .navigation {
+  display: flex;
+  flex-direction: row-reverse 50px;
+
+  color: rgb(255, 255, 255);
+}
+/* nested selecor , multiple */
+.hero h1,
+.hero p {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.hero p {
+  font-size: 40px;
+}
+.btn {
+    font-size: 25px;
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+
+.properties a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  background-color: rgb(151, 144, 1);
+  padding: 50px;
+}
+.footercon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+}
+.footercon ul {
+  list-style: none;
+  padding: 40px;
+}
+.footer .footercon ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+.footer .footercon ul li h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footercon ul li {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.footer .footercon ul .icon {
+  display: flex;
+  font-size: 35px;
+}
+.footer .footercon ul .icon li i {
+  font-size: 33px;
+  color: rgb(236, 244, 236);
+  margin-right: 13px;
+}
+.copyright {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: gray;
+  background-color: rgb(5, 5, 63);
+  padding: 50px;
+}
+.fimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -5px;
+}
+.fimg a img {
+  width: 253px;
+}

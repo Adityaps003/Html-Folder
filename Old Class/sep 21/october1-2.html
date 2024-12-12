@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="demo.js">
+       <label for="name">Enter Name</label>
+       <input type="text" id="name" placeholder="Enter Name">
+       <br><br>
+       <label for="psw">Enter Password</label>
+       <input type="password"  id="psw" placeholder="Enter Password">
+       <br><br>
+       <label for="email">Enter email</label>
+       <input type="email"  id="email" placeholder="Enter email">
+       <br><br>
+       <label for="num">Enter number</label>
+       <input type="number"  id="num" placeholder="Enter number">
+       <br><br>
+       <label for="dob">Enter Dob</label>
+       <input type="date"  id="dob" >
+       <br><br>
+       <label for="msg">Message</label>
+       <br>
+       <textarea  id="msg" cols="40" rows="5"></textarea>
+       <br>
+       <label for="gender">Gender</label>
+       <input type="radio" name="gender" id="male" value="male"> Male
+       <input type="radio" name="gender" id="female" value="female"> female
+        <br>
+        <label for="hobby">Hobbies</label>
+        <input type="checkbox" value="dance">Dance
+        <input type="checkbox" value="singing">singing
+        <input type="checkbox" value="sports">sports
+        <br>
+        <label for="course">Select course</label>
+        <select id="course">
+             <option value="frontend">Frontend</option>
+             <option value="backend">backend</option>
+             <option value="fullstack">fullstack</option>
+        </select>
+        <br><br>
+        <label for="vehicle">Select car</label>
+        <input type="text" id="vehicle" list="cars">
+        <datalist id="cars">
+          <option value="bmw"></option>
+          <option value="ferrari"></option>
+          <option value="audi"></option>
+          <option value="audi"></option>
+        </datalist>
+        <br><br>
+        <input type="submit" value="send data">
+        <input type="reset" value="Reset">
+        <button type="submit">Login</button>
+    </form>
+    <br><br>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html
